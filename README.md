@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">La plataforma de documentación para el Backend API de
-<a href="https://obelisco-back.web.app/">Obelisco</a>
+  <a target="blank" href="https://gcba.github.io/">Obelisco</a>
 </p>
 
 ## Descripción

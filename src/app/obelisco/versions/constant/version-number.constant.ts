@@ -8,29 +8,23 @@ export const OBELISCO_VERSIONS_1_58: ObeliscoVersion[] = [
     changes: [
       {
         component: 'Tabla',
-        modifications: `
-            Corrección del estilo de los checkbox.
-            Ajuste del radio de los botones de icono.
-            Corrección de estilos según el diseño en Figma (bordes, etc.).
-        `,
+        modifications: [
+          'Corrección del estilo de los checkbox.',
+          'Ajuste del radio de los botones de icono.',
+          'Corrección de estilos según el diseño en Figma (bordes, etc.).',
+        ],
       },
       {
         component: 'Calendario',
-        modifications: `
-            Correcciones y mejoras generales.
-        `,
+        modifications: ['Correcciones y mejoras generales.'],
       },
       {
         component: 'Breadcrumb',
-        modifications: `
-            Corrección en la palabra "Inicio".
-        `,
+        modifications: ['Corrección en la palabra "Inicio".'],
       },
       {
         component: 'Obelisco (CSS y CSS Map)',
-        modifications: `
-            Ajustes en los estilos CSS y el mapa CSS.
-        `,
+        modifications: ['Ajustes en los estilos CSS y el mapa CSS.'],
       },
     ],
   },
@@ -45,11 +39,11 @@ export const OBELISCO_VERSIONS_1_57: ObeliscoVersion[] = [
     changes: [
       {
         component: 'Header',
-        modifications: `
-            Se corrigió el tamaño a 7px.
-            Se ajustó la alineación de una tarjeta horizontal.
-            Se agregó la opción de descarga en un enlace.
-        `,
+        modifications: [
+          'Se corrigió el tamaño a 7px.',
+          'Se ajustó la alineación de una tarjeta horizontal.',
+          'Se agregó la opción de descarga en un enlace.',
+        ],
       },
     ],
   },
@@ -58,7 +52,7 @@ export const OBELISCO_VERSIONS_1_57: ObeliscoVersion[] = [
     date: '09/01/2024',
     pullRequest: 'feat: mapa (#218)',
     changes: [
-      { component: 'Mapa', modifications: 'Se incorpora el componente mapa' },
+      { component: 'Mapa', modifications: ['Se incorpora el componente mapa'] },
     ],
   },
 ];

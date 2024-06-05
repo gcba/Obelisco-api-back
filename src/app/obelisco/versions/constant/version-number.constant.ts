@@ -1,8 +1,58 @@
 import { ObeliscoVersion } from '../interfaces/versions.interfaces';
 
-export const OBELISCO_VERSIONS_1_58: ObeliscoVersion[] = [];
+export const OBELISCO_VERSIONS_1_58: ObeliscoVersion[] = [
+  {
+    version: '1.58.0',
+    date: '07/03/2024',
+    pullRequest: 'dev-1-57 (#225)',
+    changes: [
+      {
+        component: 'Tabla',
+        modifications: `
+            Corrección del estilo de los checkbox.
+            Ajuste del radio de los botones de icono.
+            Corrección de estilos según el diseño en Figma (bordes, etc.).
+        `,
+      },
+      {
+        component: 'Calendario',
+        modifications: `
+            Correcciones y mejoras generales.
+        `,
+      },
+      {
+        component: 'Breadcrumb',
+        modifications: `
+            Corrección en la palabra "Inicio".
+        `,
+      },
+      {
+        component: 'Obelisco (CSS y CSS Map)',
+        modifications: `
+            Ajustes en los estilos CSS y el mapa CSS.
+        `,
+      },
+    ],
+  },
+];
 
 export const OBELISCO_VERSIONS_1_57: ObeliscoVersion[] = [
+  ,
+  {
+    version: '1.57.1',
+    date: '16/02/2024',
+    pullRequest: 'Notificacion en header (#220)',
+    changes: [
+      {
+        component: 'Header',
+        modifications: `
+            Se corrigió el tamaño a 7px.
+            Se ajustó la alineación de una tarjeta horizontal.
+            Se agregó la opción de descarga en un enlace.
+        `,
+      },
+    ],
+  },
   {
     version: '1.57.0',
     date: '09/01/2024',

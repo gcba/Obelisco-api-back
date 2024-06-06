@@ -8,14 +8,11 @@
 
 ## Descripción
 
-Explora el Backend API del Gobierno de la Ciudad de Buenos Aires con Obelisco-back. Accede fácilmente a endpoints que proporcionan información actualizada sobre diversos aspectos de la vida en la ciudad.
+Es la plataforma de documentación para el Backend API de Obelisco destinado a simplificar el trabajo de desarrolladores en proyectos y activos digitales del Gobierno de la Ciudad de Buenos Aires.
 
-Simplifica tu desarrollo y crea aplicaciones innovadoras con datos confiables y accesibles.
+Accedé fácilmente a los endpoints que proporcionan información actualizada sobre diversos aspectos de la vida en la ciudad.
 
-## Comenzando
-
-Revisa la [documentación](https://obelisco-back.web.app/) para poder continuar.
-
+Utiliza la [documentación](https://obelisco-back.web.app/) y creá aplicaciones innovadoras con datos confiables y accesibles.
 
 ## Tecnología Utilizada y Requisitos
 
@@ -31,7 +28,6 @@ Este proyecto es una API REST desarrollada utilizando NestJS versión 10.0.0 y N
 
 - Node.js: [Descargar e instalar Node.js](https://nodejs.org/es/download/)
 - NestJS: Se instala automáticamente como dependencia del proyecto, pero puede ser útil tenerlo globalmente instalado para la línea de comandos.
-
 
 ## Instalación
 
@@ -51,4 +47,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
- 

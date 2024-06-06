@@ -7,8 +7,6 @@ import { ResolutionModule } from './app/obelisco/resolution/resolution.module';
 import { HeaderModule } from './app/obelisco/header/header.module';
 import { NbaModule } from './app/nba/nba.module';
 import { GovernmentAreasModule } from './app/nba/government-areas/government-areas.module';
-import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
-import { APP_GUARD } from '@nestjs/core';
 
 @Module({
   imports: [
@@ -23,20 +21,20 @@ import { APP_GUARD } from '@nestjs/core';
     // ServeStaticModule.forRoot({
     //   rootPath: join(__dirname, '..', 'public'),
     // }),
-    ThrottlerModule.forRoot([
-      {
-        ttl: 60,
-        limit: 20,
-      },
-    ]),
+    // ThrottlerModule.forRoot([
+    //   {
+    //     ttl: 60,
+    //     limit: 20,
+    //   },
+    // ]),
   ],
   controllers: [],
-  providers: [
-    {
-      provide: APP_GUARD,
-      useClass: ThrottlerGuard,
-    },
-  ],
+  // providers: [
+  //   {
+  //     provide: APP_GUARD,
+  //     useClass: ThrottlerGuard,
+  //   },
+  // ],
   exports: [],
 })
 export class AppModule {}

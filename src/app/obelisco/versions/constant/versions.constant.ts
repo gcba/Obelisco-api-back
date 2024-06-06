@@ -29,5 +29,5 @@ export const OBELISCO_VERSIONS: { versions: ObeliscoVersion[] } = {
     // ...OBELISCO_VERSIONS_1_41,
     // ...OBELISCO_VERSIONS_1_40,
     // ...OBELISCO_VERSIONS_1_39,
-  ],
+  ].filter((version) => version !== undefined),
 };

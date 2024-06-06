@@ -53,10 +53,12 @@ export class VersionsService {
   }
 
   public get versionsAllData(): { versions: ObeliscoVersion[] } {
+    console.log(this._obeliscoVersionsAsc);
     return this._obeliscoVersionsAsc;
   }
 
   public get versionsAllDataDesc(): { versions: ObeliscoVersion[] } {
+    console.log(this._obeliscoVersionsDesc);
     return this._obeliscoVersionsDesc;
   }
 }

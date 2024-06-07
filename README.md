@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://obelisco-back.web.app/" target="blank"><img src="https://gcba.github.io/img/header/Obelisco-logo.svg" width="200" alt="Obelisco Logo" /></a>
+  <a href="https://gcba.github.io/" target="blank"><img src="https://gcba.github.io/img/header/Obelisco-logo.svg" width="200" alt="Obelisco Logo" /></a>
 </p>
 
 <p align="center">La plataforma de documentación para el Backend API de
@@ -12,7 +12,7 @@ Es la plataforma de documentación para el Backend API de Obelisco destinado a s
 
 Accedé fácilmente a los endpoints que proporcionan información actualizada sobre diversos aspectos de la vida en la ciudad.
 
-Utiliza la [documentación](https://obelisco-back.web.app/) y creá aplicaciones innovadoras con datos confiables y accesibles.
+Utiliza la [documentación](https://gcba.github.io/obelisco-api/) y creá aplicaciones innovadoras con datos confiables y accesibles.
 
 ## Tecnología Utilizada y Requisitos
 

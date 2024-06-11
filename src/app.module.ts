@@ -7,6 +7,7 @@ import { ResolutionModule } from './app/obelisco/resolution/resolution.module';
 import { HeaderModule } from './app/obelisco/header/header.module';
 import { NbaModule } from './app/nba/nba.module';
 import { GovernmentAreasModule } from './app/nba/government-areas/government-areas.module';
+import { StockImagesModule } from './app/obelisco/stock-images/stock-images.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { GovernmentAreasModule } from './app/nba/government-areas/government-are
     NbaModule,
     GovernmentAreasModule,
     HeaderModule,
+    StockImagesModule,
     // ServeStaticModule.forRoot({
     //   rootPath: join(__dirname, '..', 'public'),
     // }),
